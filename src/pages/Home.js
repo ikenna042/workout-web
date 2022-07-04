@@ -18,7 +18,7 @@ const Home = () => {
     }
 
     getWorkouts();
-  }, [dispatch, workouts])
+  }, [dispatch])
   
   return (
     <div className="home">
